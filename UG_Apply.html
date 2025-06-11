@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply form</title>
+    <link rel="stylesheet" href="Css/UG_Apply.css">
+    <link rel="stylesheet" href="Css/header.css">
+    <link rel="stylesheet" href="Css/footer.css">
+</head>
+
+<body>
+    <header class="top">
+        <div class="logo">
+            <img src="Images/Logo.png" width="150px" height="150px">
+        </div>
+        <div class="title">
+            <p>Pakistan Institute of Science and Technology</p>
+        </div>
+    </header>
+    <header class="link">
+        <ul class="main-menu">
+            <li><a href="PIST.html">HOME</a></li>
+            <li><a href="about_us2.html">ABOUT US</a></li>
+            <li><a href="Admission.html">ADMISSION</a></li>
+            <li><a href="Programs.html">FACULTY</a></li>
+            <li><a href="Events.html">EVENTS</a></li>
+            <li><a href="Facilities.html">FACILITIES</a></li>
+            <li><a href="contact_us2.html">CONTACT US</a></li>
+        </ul>
+    </header>
+    <div class="adm">
+        <h1>
+            APPLICATION PAGE
+        </h1>
+    </div>
+    <main>
+
+        <div class="process">
+            <h2>Step By Step Guide</h2>
+            <br>
+            <div class="steps">
+                <p>
+                    <li>To apply fill the below form</li>
+                </p>
+                <p>
+                    <li>First complete Personal Information</li>
+                </p>
+                <p>
+                    <li>Then complete the Academics Informations</li>
+                </p>
+                <li>Click on submit button to submit your application</li>
+            </div>
+        </div>
+        <div class="perinfo">
+            <h2>Personal Information</h2>
+            <div class="info">
+                <h3>Name:
+                    <input type="text" placeholder="Enter Your Name">
+                </h3>
+                <h3>CNIC:
+                    <input type="number" placeholder="Enter Your Cnic">
+                </h3>
+                <label for="dob">
+                    <h3>Date of Birth:</h3>
+                </label>
+                <input type="date" id="dob" name="dob">
+                <h3>Father Name:
+                    <input type="text" placeholder="Enter Your Father Name">
+                </h3>
+                <h3>Address:
+                    <input type="text" placeholder="Enter Your Permanent Address ">
+                </h3>
+                <h3>Upload your photo</h3>
+                <img src="Images/profileimg.webp" height="50px" width="50px" id="photo"><br>
+                <input type="file" accept=".jpg,.png,.jpeg" height="10px" id="uphoto">
+            </div>
+        </div>
+        <div class="perinfo">
+            <h2>Academics Records</h2>
+
+            <div class="academics">
+                <div class="info">
+                    <h3>Matric Marks </h3>
+                    <input type="number" placeholder="Enter Marks in Matric">
+                    <p><b>Uplaod result card photo</b>
+                    <pre><img src="Images/uplaodpic.png" height="50px" id="photo"></p></pre>
+                    <input type="file" accept=".jpg,.png,.jpeg" height="10px" id="uphoto">
+
+                    <h3>Intermediate Marks </h3>
+                    <input type="number" placeholder="Enter Marks in Intermediate">
+                    <p><b>Uplaod result card photo</b>
+                    <pre><img src="Images/uplaodpic.png" height="50px" id="photo"></p></pre>
+                    <input type="file" accept=".jpg,.png,.jpeg" height="10px" id="uphoto">
+
+                    <h3>Entry test Marks </h3>
+                    <input type="number" placeholder="Enter Marks in Entry test">
+                    <p><b>Uplaod result card photo</b>
+                    <pre><img src="Images/uplaodpic.png" height="50px" id="photo"></p></pre>
+                    <input type="file" accept=".jpg,.png,.jpeg" height="10px" id="uphoto">
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="submit">
+        <button id="submit-button">
+            Submit
+        </button>
+    </div>
+    <script src="JavaScript/form.js"></script>
+    <footer>
+        <div class="footer">
+            <div class="contact">
+                <h3>
+                    CONTACT US
+                </h3>
+                <p>Registrar</p>
+                <p>042-12347854</p>
+                <p>registrar@pist.edu.pk</p>
+                <p>Deputy Registrar</p>
+                <p>042-13947854</p>
+                <p>d-registrar@pist.edu.pk</p>
+
+            </div>
+            <div class="important-links">
+                <h3>
+                    QUICK LINKS
+                </h3>
+                <ul>
+                    <li><a href="PIST.html">Home</a></li>
+                    <li><a href="about_us2.html">About Us</a></li>
+                    <li><a href="Facilities.html">Facilities</a></li>
+                    <li><a href="Events.html">Events</a></li>
+                    <li><a href="Programs.html">Faculty</a></li>
+                    <li><a href="contact_us2.html">Contact</a></li>
+                </ul>
+            </div>
+    </footer>
+    <div class="bottom">
+        <p>@ Copyright Pakistan Institute of Science and Technology</p>
+    </div>
+    <script src="JavaScript/home.js"></script>
+</body>
+
+</html>
