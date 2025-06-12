@@ -1,0 +1,106 @@
+.adm{
+    width: 100%;
+    background-color: navy;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container img{
+    width: 100%;
+    height: auto;
+}
+
+.fee{
+    background-color: rgb(46, 109, 234);
+    height: 250px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    transition-duration:  2s ;
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s;
+}
+.fee:hover{
+    background-color: black;
+    color: white;
+}
+.sentence{
+    background-color:rgb(134, 11, 11);
+    color: white;
+    height: auto;
+    display: flex;
+    text-align: justify;
+    margin-top: 5px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.need{
+    text-align: center;
+    height: auto;
+    background-color: blanchedalmond;
+    margin-top: 10px;
+    border: 2px solid black;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.Merit-Based
+{
+    background-color: beige;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 20px;
+    height: auto;
+    padding-left: 100px;
+    padding-bottom: 20px;    
+}
+
+.foot{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .aid{
+    margin-top: 20px;
+   }
+
+input{
+    width: 400px;
+    height: 20px;
+}
+
+form{
+    text-align: left;
+}
+
+button{
+    color: white;
+    background-color: red;
+    padding: 15px;
+    font-size: 20px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+button:hover{
+    opacity: 0.8;
+    transform: scale(0.9);
+}
+
+label{
+    font-size: 16px;
+    font-weight: bold;
+}

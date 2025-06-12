@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.events{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    background-color: cadetblue;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: navy;
+}
+
+.header h1{
+    color: white;
+    text-align: center;
+}
+
+@keyframes appear {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.convocation{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.card{
+    width: 450px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 5.5);
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.3s;
+}
+
+.card img:hover{
+    opacity: 0.8;
+}
+
+.card .content h3{
+    font-size: 25px;
+    color: navy;
+    text-align: center;
+}
+
+.events .card{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.card .content h3{
+    text-transform:uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial;
+}
+
+.card .content p{
+    font-size: 18px;
+    font-family: Arial;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.card:hover{
+    box-shadow: 0px 1px 35px rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.card img{
+    width: 100%;
+    height: 300px;
+}
+
+.card .button{
+    padding: 25px;
+}
+
+.card .button button{
+    padding: 8px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border: none;
+    box-shadow: 0px 1px 35px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card .button button:hover{
+    opacity: 0.6;
+    transform: scale(0.9);
+}
